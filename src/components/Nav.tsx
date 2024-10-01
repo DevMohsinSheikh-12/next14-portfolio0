@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { SpeedInsights } from "@vercel/speed-insights/next"
 import { ArrowRightIcon, LinkedInLogoIcon } from '@radix-ui/react-icons'
 const Nav = () => {
   return (

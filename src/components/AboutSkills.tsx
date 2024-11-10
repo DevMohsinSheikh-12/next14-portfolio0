@@ -31,8 +31,8 @@ const Card = ({ imageSrc, title,according, description }:any) => {
      return (
       <>
     
-       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 bg-blend-saturation 
-       bg-screen bg-cover bg-center h-screen  " > 
+       <div className="md:grid grid-cols-1 md:grid-cols-3 gap-4 p-4 bg-blend-saturation 
+       bg-screen bg-cover bg-center md:h-screen  " > 
         
       <Card
         imageSrc="/images/html.jpg" 
@@ -56,7 +56,7 @@ const Card = ({ imageSrc, title,according, description }:any) => {
         imageSrc="/images/ts.jpg"
         title="TypeScript"
         according="Proficient"
-        description="sdfghjk" />
+        description="This is a short description about Mike." />
       <Card
         imageSrc="/images/react.jpg"
         title="ReactJS"

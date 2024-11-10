@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link';
 import React from 'react'
-import {useTypewriter,Cursor} from "react-simple-typewriter"
+import {useTypewriter,Cursor,  } from "react-simple-typewriter"
 
 const Herosection = () => {
   const [text]:any = useTypewriter({
@@ -14,7 +14,7 @@ const Herosection = () => {
   return (
     <section   className="bg-screen bg-center h-screen glass-blend-bottom"    style={{backgroundImage:
       "url('../images/strt.jpg')"}}>
-        <main className='1  ml-28 '>
+        <main className='1 ml-12 md:ml-28 '>
 
     <div className="text-white pt-48">
     <h1 className='text-4xl mb-4 '>
